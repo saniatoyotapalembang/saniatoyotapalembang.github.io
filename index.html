@@ -74,31 +74,13 @@
     <div class="hero-bg-scrim" aria-hidden="true"></div>
     <div class="container hero-grid">
       <div class="hero-content">
-        <span class="promo-badge">SANIA TOYOTA PALEMBANG • BERLAKU SPK OKT–DES 2026</span>
-        <h1>Sania Toyota Palembang — Promo &amp; Pricelist Resmi 2026</h1>
-        <p>
-          Temukan penawaran dan daftar harga OTR Palembang resmi untuk 27 model Toyota
-          (Reguler Order &amp; Spot Order/CBU): mulai dari City Car, MPV, SUV, Sedan &amp; GR, kendaraan Niaga, hingga Hybrid EV &amp; BEV.
-        </p>
+        <span class="promo-badge">SANIA TOYOTA PALEMBANG</span>
+        <h1>Promo &amp; Pricelist Toyota 2026</h1>
+        <p>Harga OTR Palembang resmi untuk 27 model Toyota.</p>
 
         <div class="hero-actions">
-          <a href="#katalog" class="btn btn-primary">Jelajahi 27 Model &amp; Pricelist</a>
-          <a href="#simulasi" class="btn btn-outline">Hitung Simulasi Kredit</a>
-        </div>
-
-        <div class="hero-stats">
-          <div class="stat-item">
-            <strong>27 Model Resmi</strong>
-            <span>Reguler &amp; Spot Order</span>
-          </div>
-          <div class="stat-item">
-            <strong>Mulai Rp 207,4 Jt</strong>
-            <span>OTR Palembang Per 24 Okt 2026</span>
-          </div>
-          <div class="stat-item">
-            <strong>HEV &amp; BEV</strong>
-            <span>Tersedia Merchandise GR</span>
-          </div>
+          <a href="#katalog" class="btn btn-primary">Lihat Katalog</a>
+          <a href="#simulasi" class="btn btn-outline">Simulasi Kredit</a>
         </div>
 
         <div class="hero-bg-controls" id="heroBgControls">
@@ -120,9 +102,7 @@
         <div class="hero-image-caption">
           <div>
             <strong id="heroModelTitle">Toyota New Innova Zenix</strong>
-            <div class="hero-model-sub" id="heroModelSub">
-              Opsi Bensin &amp; Hybrid EV • OTR Palembang Okt–Des 2026
-            </div>
+            <div class="hero-model-sub" id="heroModelSub">Reguler Order</div>
           </div>
           <span id="heroModelPrice">Rp 471,2 Jt – Rp 663,0 Jt</span>
         </div>
@@ -584,7 +564,7 @@
 
       const currentCar = heroCarSlides[heroCarIdx];
       if (heroModelTitle) heroModelTitle.textContent = currentCar.name;
-      if (heroModelSub) heroModelSub.textContent = "OTR Palembang Nov 2026 • " + currentCar.tag;
+      if (heroModelSub) heroModelSub.textContent = currentCar.tag;
       if (heroModelPrice) heroModelPrice.textContent = currentCar.priceRange;
       if (heroCarBadge) {
         heroCarBadge.textContent =
