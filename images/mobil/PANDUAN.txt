@@ -1,0 +1,18 @@
+PANDUAN FOLDER: images/mobil/
+=============================
+Folder ini untuk menyimpan foto utama tiap model mobil Toyota 2026.
+
+Cara menambahkan foto mobil agar tampil:
+1. Simpan file foto mobil (format .jpg / .jpeg / .png / .webp) ke dalam folder ini.
+   Contoh: images/mobil/innova-zenix.jpeg atau images/mobil/innova-zenix.jpg
+2. Buka file cars-2026.js lalu daftarkan path gambar di CAR_COLOR_OPTIONS pada urutan pertama:
+   { key: "white", image: "images/mobil/innova-zenix.jpeg", studio: "dark" }
+   (Gunakan studio: "dark" untuk latar foto hitam atau "light" untuk latar putih/transparan.
+   Saat ini seluruh 27 dari 27 model sudah terhubung ke folder images/mobil/.)
+
+Daftar ID seluruh 27 model resmi Palembang di cars-2026.js:
+- MPV (8): calya, avanza, veloz, innova-reborn, innova-zenix, voxy, alphard, vellfire
+- SUV (8): raize, rush, yaris-cross, corolla-cross, fortuner, urban-cruiser, bz4x, land-cruiser
+- Hatchback (2): agya, yaris
+- Sedan & Coupe (5): vios, corolla-altis, camry, gr-86, gr-supra
+- Niaga / Commercial (4): hilux-rangga, hilux, dyna, hiace

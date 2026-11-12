@@ -1,0 +1,32 @@
+PANDUAN FOLDER: images/warna/
+=============================
+Folder ini untuk menyimpan foto setiap varian warna mobil untuk fitur Slideshow Warna.
+
+Cara menambahkan foto warna mobil agar tampil di slideshow:
+1. Simpan foto tiap warna ke folder ini (format .jpg / .jpeg / .png / .webp), misalnya:
+   - images/warna/avanza-white.jpeg / .jpg
+   - images/warna/avanza-black.jpeg / .jpg
+   - images/warna/innova-zenix-white.jpg
+   - images/warna/innova-zenix-silver.jpg
+2. Buka cars-2026.js bagian CAR_COLOR_OPTIONS, lalu ubah kode warna menjadi objek dengan image:
+   Contoh untuk innova-zenix:
+   "innova-zenix": [
+     { key: "white", image: "images/warna/innova-zenix-white.jpg" },
+     { key: "silver", image: "images/warna/innova-zenix-silver.jpg" },
+     "gray",
+     "black"
+   ],
+3. Atau unggah langsung per model & warna melalui panel "Kelola Foto Promo" di bagian bawah website.
+
+Daftar kode warna yang tersedia di cars-2026.js:
+- white    (Platinum White Pearl)
+- silver   (Silver Metallic)
+- gray     (Dark Gray Metallic)
+- black    (Attitude Black)
+- red      (Emotional Red)
+- darkred  (Dark Red Mica)
+- blue     (Turquoise / Sporty Blue)
+- yellow   (Yellow SE)
+- bronze   (Bronze Mica)
+- sand     (Sand Beige)
+- purplish (Purplish Silver)

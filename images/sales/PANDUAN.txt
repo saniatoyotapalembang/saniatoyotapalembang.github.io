@@ -1,0 +1,11 @@
+PANDUAN FOLDER: images/sales/
+=============================
+Taruh foto profil sales (Sania Toyota Palembang) ke dalam folder ini agar tampil di kartu profil sales pada halaman website.
+
+Nama file yang otomatis terdeteksi oleh index.html (pilih salah satu, mendukung .jpg, .jpeg, .png):
+1. sania.jpg / sania.jpeg / sania.png
+2. sales.jpg / sales.jpeg / sales.png
+
+Tips:
+- Gunakan foto portrait/persegi yang jelas (rasio 1:1, misalnya 500x500 piksel).
+- Setelah file ditaruh di folder ini dengan salah satu nama di atas, refresh index.html di browser.

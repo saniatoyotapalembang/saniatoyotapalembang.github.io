@@ -1,0 +1,18 @@
+PANDUAN FOLDER: images/background/
+==================================
+Taruh foto-foto background untuk Slideshow Latar Belakang Hero ke dalam folder ini.
+
+Nama file yang otomatis dideteksi oleh index.html sebagai Slideshow (mendukung .jpg, .jpeg, .png):
+1. Untuk beberapa foto slideshow (disarankan):
+   - hero-bg-1.jpg / hero-bg-1.jpeg
+   - hero-bg-2.jpg / hero-bg-2.jpeg
+   - hero-bg-3.jpg / hero-bg-3.jpeg
+   - hero-bg-4.jpg / hero-bg-4.jpeg
+2. Atau untuk 1 foto background utama:
+   - hero-bg.jpg / hero-bg.jpeg / hero-bg.png
+
+Catatan:
+- Jika ekstensi file disembunyikan di Windows Explorer, mengganti nama file menjadi hero-bg-1.jpg kadang menjadi hero-bg-1.jpg.jpg. Website kini juga mendeteksi ekstensi ganda (.jpg.jpg / .jpeg.jpeg), namun disarankan cukup memberi nama hero-bg-1 tanpa mengetik ulang ekstensinya.
+- Jika belum ada foto .jpg/.jpeg/.png di folder ini, website otomatis memutar slideshow 3 latar bawaan:
+  bg-showroom.svg, bg-palembang-night.svg, dan bg-hybrid-eco.svg.
+- Anda juga bisa mendaftarkan nama file acak secara manual di file images/background/daftar-foto.js.
